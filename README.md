@@ -2,7 +2,13 @@
 
 A complete PyTorch implementation of a Faster R-CNN style object detector, built from ground zero without pre-trained weights.
 
-![Detection Demo](detection_demo.gif)
+### Real-World Verification
+Comparison on dynamic scenes (trained on "Chelsea the Cat" and "Astronaut").
+
+| Original Input | Detection Result |
+| :---: | :---: |
+| ![Original](real_original.gif) | ![Detection](real_detection.gif) |
+
 
 ## 📌 Overview
 This project demonstrates how to build a two-stage object detector from scratch. It includes:
@@ -14,7 +20,7 @@ This project demonstrates how to build a two-stage object detector from scratch.
 ## 🛠️ Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/object-detection-scratch.git
+git clone https://github.com/sathvik73/object-detection-scratch.git
 cd object-detection-scratch
 
 # Install dependencies
